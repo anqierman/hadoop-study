@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6d5fef5-c972-4bbc-ae22-5c0951cfb184" name="Default Changelist" comment="" />
+    <list default="true" id="b6d5fef5-c972-4bbc-ae22-5c0951cfb184" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/xiongdi/hive/jdbc/HiveJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hive/src/main/java/com/xiongdi/hive/udf/MyFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/classes/com/xiongdi/flume/custom/CustomInterceptor$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/classes/com/xiongdi/flume/custom/CustomInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/flume-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flume/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hadoop-study" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -13,6 +45,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,19 +63,44 @@
     </option>
   </component>
   <component name="ProjectId" id="1hXwkdmLIDSPg1OM3I4wqvW4Uaj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HiveJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiongdi.hive.jdbc.HiveJdbc" />
+      <module name="hive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiongdi.hive.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HiveJdbc" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,40 +115,52 @@
       <workItem from="1600170891787" duration="1820000" />
       <workItem from="1600259172834" duration="2764000" />
       <workItem from="1600484341520" duration="1686000" />
+      <workItem from="1602601080812" duration="1555000" />
+      <workItem from="1604411622025" duration="1265000" />
+      <workItem from="1604412906742" duration="1827000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="313" y="119" key="#Project_Structure" timestamp="1600172487298">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="119" key="#Project_Structure/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600172487298" />
-    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1600259819039">
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser" timestamp="1604412160078">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600259819039" />
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1600270775520">
+    <state x="526" y="177" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920/2160.139.1920.1040@0.0.1440.920" timestamp="1604412160078" />
+    <state width="1397" height="181" key="GridCell.Tab.0.bottom" timestamp="1604415098576">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600270775520" />
-    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1600270775520">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1602604144157" />
+    <state width="1397" height="181" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.139.1920.1040@0.0.1440.920" timestamp="1604415098576" />
+    <state width="1397" height="181" key="GridCell.Tab.0.center" timestamp="1604415098576">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600270775520" />
-    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1600270775520">
+    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1602604144157" />
+    <state width="1397" height="181" key="GridCell.Tab.0.center/0.0.1440.920/2160.139.1920.1040@0.0.1440.920" timestamp="1604415098576" />
+    <state width="1397" height="181" key="GridCell.Tab.0.left" timestamp="1604415098576">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600270775520" />
-    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1600270775520">
+    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1602604144157" />
+    <state width="1397" height="181" key="GridCell.Tab.0.left/0.0.1440.920/2160.139.1920.1040@0.0.1440.920" timestamp="1604415098576" />
+    <state width="1397" height="181" key="GridCell.Tab.0.right" timestamp="1604415098576">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1600270775520" />
-    <state x="2494" y="214" key="new project wizard" timestamp="1600170985282">
-      <screen x="2160" y="0" width="1920" height="1040" />
+    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1602604144157" />
+    <state width="1397" height="181" key="GridCell.Tab.0.right/0.0.1440.920/2160.139.1920.1040@0.0.1440.920" timestamp="1604415098576" />
+    <state x="216" y="189" key="new project wizard" timestamp="1602601154606">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
+    <state x="216" y="189" key="new project wizard/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1602601154606" />
     <state x="2494" y="214" key="new project wizard/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1600170985282" />
     <state x="377" y="211" key="run.anything.popup" timestamp="1600484427513">
       <screen x="0" y="0" width="1440" height="920" />
